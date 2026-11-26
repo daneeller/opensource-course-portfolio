@@ -1,0 +1,30 @@
+{
+  "tag": "pr161930",
+  "python": "C:\\Users\\陈思宇\\WorkBuddy\\2026-11-19-13-54-34\\cpython-gil\\PCbuild\\amd64\\python.exe",
+  "version": "3.16.0a2+dev (heads/pr-161930:5040374, Nov 25 2026, 20:17:28) [MSC v.1944 64 bit (AMD64)]\nC:\\Users\\陈思宇\\WorkBuddy\\2026-11-19-13-54-34\\cpython-gil\\PCbuild\\amd64\\python.exe",
+  "pr_test": {
+    "returncode": 0,
+    "stdout_tail": "== CPython 3.16.0a2+dev (heads/pr-161930:5040374, Nov 25 2026, 20:17:28) [MSC v.1944 64 bit (AMD64)]\n== Windows-11-10.0.26200-SP0 little-endian\n== Python build: release\n== cwd: C:\\Users\\陈思宇\\WorkBuddy\\2026-11-19-13-54-34\\cpython-gil\\build\\test_python_worker_22748æ\n== CPU count: 32\n== encodings: locale=cp936 FS=utf-8\n== resources: all test resources are disabled, use -u option to unskip tests\n\nUsing random seed: 685637325\n0:00:00 mem:   34.8 MiB Run 1 test sequentially in a single process\n0:00:00 mem:   34.8 MiB [1/1] test_threading\ntest_switch_interval_with_frequent_gil_releases (test.test_threading.ThreadTests.test_switch_interval_with_frequent_gil_releases) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.132s\n\nOK\n0:00:00 mem:   36.8 MiB [1/1] test_threading passed\n\n== Tests result: SUCCESS ==\n\n1 test OK.\n\nTotal duration: 643 ms\nTotal tests: run=1 (filtered)\nTotal test files: run=1/1 (filtered)\nResult: SUCCESS\n",
+    "stderr_tail": ""
+  },
+  "repro_samples": [
+    {
+      "run": 1,
+      "returncode": 0,
+      "longest_ms": 8,
+      "stdout": "3.16.0a2+dev (heads/pr-161930:5040374, Nov 25 2026, 20:17:28) [MSC v.1944 64 bit (AMD64)]\nswitch interval: 5 ms\nlongest time.sleep(0.001) in the main thread: 8 ms"
+    },
+    {
+      "run": 2,
+      "returncode": 0,
+      "longest_ms": 8,
+      "stdout": "3.16.0a2+dev (heads/pr-161930:5040374, Nov 25 2026, 20:17:28) [MSC v.1944 64 bit (AMD64)]\nswitch interval: 5 ms\nlongest time.sleep(0.001) in the main thread: 8 ms"
+    },
+    {
+      "run": 3,
+      "returncode": 0,
+      "longest_ms": 11,
+      "stdout": "3.16.0a2+dev (heads/pr-161930:5040374, Nov 25 2026, 20:17:28) [MSC v.1944 64 bit (AMD64)]\nswitch interval: 5 ms\nlongest time.sleep(0.001) in the main thread: 11 ms"
+    }
+  ]
+}

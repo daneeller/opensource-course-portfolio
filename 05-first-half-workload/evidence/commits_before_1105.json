@@ -1,0 +1,107 @@
+{
+  "daneeller/course-order": [
+    {
+      "author": "csy",
+      "date": "2026-10-14T10:08:19Z",
+      "message": "补充开源材料：许可证、README、内置逻辑验证台",
+      "sha": "b88464e"
+    },
+    {
+      "author": "csy",
+      "date": "2026-10-14T09:49:49Z",
+      "message": "初始提交：课序（ClassOrder）—— 鸿蒙 PC 学期课表与冲突检测",
+      "sha": "770c9a9"
+    }
+  ],
+  "daneeller/f25015220-apache-commons-cli-license-scan": [
+    {
+      "author": "csy",
+      "date": "2026-10-29T16:44:21Z",
+      "message": "Revert \"补充测试人员资质说明（鸿蒙开发者认证、华为 HCIA-AI 认证）\"",
+      "sha": "dba62cc"
+    },
+    {
+      "author": "csy",
+      "date": "2026-10-29T16:41:25Z",
+      "message": "补充测试人员资质说明（鸿蒙开发者认证、华为 HCIA-AI 认证）",
+      "sha": "4476833"
+    },
+    {
+      "author": "csy",
+      "date": "2026-10-29T07:33:33Z",
+      "message": "作业1：Apache Commons CLI 开源软件许可测试报告（ScanCode Toolkit 32.5.0）",
+      "sha": "1a506f0"
+    }
+  ],
+  "daneeller/daneeller": [
+    {
+      "author": "陈思宇",
+      "date": "2026-10-29T16:48:58Z",
+      "message": "统计卡片改为仓库内自托管，避免外部服务 503",
+      "sha": "1b4a72e"
+    },
+    {
+      "author": "陈思宇",
+      "date": "2026-10-29T16:48:55Z",
+      "message": "添加静态语言分布卡片",
+      "sha": "52db919"
+    },
+    {
+      "author": "陈思宇",
+      "date": "2026-10-29T16:48:54Z",
+      "message": "添加静态 GitHub Stats 卡片（替代外部统计服务）",
+      "sha": "0596f8f"
+    },
+    {
+      "author": "陈思宇",
+      "date": "2026-10-29T16:43:34Z",
+      "message": "补充认证信息：HarmonyOS 开发者认证与 HCIA-AI",
+      "sha": "2168fc7"
+    },
+    {
+      "author": "陈思宇",
+      "date": "2026-10-29T16:43:30Z",
+      "message": "补充认证信息：HarmonyOS 开发者认证与 HCIA-AI",
+      "sha": "d0aea21"
+    },
+    {
+      "author": "daneeller",
+      "date": "2026-10-29T12:41:32Z",
+      "message": "补全个人简介：学校专业、技术栈与项目列表",
+      "sha": "ce0330a"
+    },
+    {
+      "author": "daneeller",
+      "date": "2026-10-29T12:41:27Z",
+      "message": "个人主页改为带文字介绍的内容页",
+      "sha": "bfb5c72"
+    },
+    {
+      "author": "csy",
+      "date": "2026-09-27T06:44:56Z",
+      "message": "Initial commit: profile README + GitHub redirect page",
+      "sha": "0d1f2c9"
+    }
+  ],
+  "daneeller/daneeller.github.io": [
+    {
+      "author": "陈思宇",
+      "date": "2026-10-29T16:45:06Z",
+      "message": "主页补充认证信息：HarmonyOS 开发者认证与 HCIA-AI",
+      "sha": "7f15fb0"
+    },
+    {
+      "author": "陈思宇",
+      "date": "2026-10-29T12:46:16Z",
+      "message": "添加站点仓库 README",
+      "sha": "5c97619"
+    },
+    {
+      "author": "daneeller",
+      "date": "2026-10-29T12:41:54Z",
+      "message": "个人主页：上海杉达学院 · 计算机科学与技术卓越班",
+      "sha": "26b3e10"
+    }
+  ],
+  "daneeller/fde-handover-collab": []
+}
